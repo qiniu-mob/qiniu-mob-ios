@@ -1,0 +1,6 @@
+framework module QNMob {
+  umbrella header "QNMob.h"
+
+  export *
+  module * { export * }
+}
