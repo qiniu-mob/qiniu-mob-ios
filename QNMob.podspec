@@ -10,10 +10,10 @@ Pod::Spec.new do |s|
   s.author       = { 'Qiniu Mobile Services' => 'qiniumobileservices' }
   s.platform     = :ios, '8.0'
 
-  s.source       = { :git => 'https://github.com/qiniu-mob/qiniu-mob-ios.git',
+  s.source       = { :git => 'git@github.com:qiniu-mob/qiniu-mob-ios.git',
                      :tag => "v#{s.version}"}
   s.frameworks   = 'AWSCore', 'QNMob'
-  s.libraries    = ['z' 'sqlite3']
+  s.libraries    = 'z', 'sqlite3'
   s.requires_arc = true
 
   s.ios.deployment_target    = '8.0'
